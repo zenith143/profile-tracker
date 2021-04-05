@@ -1,0 +1,40 @@
+<section class="section">
+    <div class="content">
+        <div class="profile-cards" *ngFor="let profile of profiles" (click)="onSelectedProfile(profile)">
+            <div class="profile">
+                <div class="img-content">
+                    <img class="image" src="../../../assets//img_avatar.png" />
+                </div>
+                <div class="details">
+                    <div class="name">{{profile.name}}</div>
+                    <div class="role">{{profile.currentRole}}</div>
+                </div>
+            </div>
+            <div class="skills">
+                <mat-chip-list class="skills-chip">
+                    <mat-chip class="skill" *ngFor="let skill of profile.skills">
+                        {{skill}}
+                    </mat-chip>
+                </mat-chip-list>
+            </div>
+        </div>
+    </div>
+    <div class="profile-details" *ngIf="!!selectedProfile">
+        <div>
+            <label>Name : </label>
+            <span>{{selectedProfile.name}}</span>
+        </div>
+        <div>
+            <label>Current Role : </label>
+            <span>{{selectedProfile.currentRole}}</span>
+        </div>
+        <div>
+            <label>Skills : </label>
+            <mat-chip-list class="skills-chip">
+                <mat-chip class="skill" *ngFor="let skill of selectedProfile.skills">
+                    {{skill}}
+                </mat-chip>
+            </mat-chip-list>
+        </div>
+    </div>
+</section>

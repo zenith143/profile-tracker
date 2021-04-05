@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Role": "Developer",
+        "SalaryMin": 700000,
+        "SalaryMax": 1000000,
+        "Location": "Hyderabad",
+        "Skills": "angular,.net,sql"
+    },
+    {
+        "Id": 2,
+        "Role": "Senior Developer",
+        "SalaryMin": 1000000,
+        "SalaryMax": 1500000,
+        "Location": "Chennai",
+        "Skills": "angular,.net,sql,html5,bootstrap,material"
+    },
+    {
+        "Id": 3,
+        "Role": "FrontEnd Developer",
+        "SalaryMin": 700000,
+        "SalaryMax": 1000000,
+        "Location": "Hyderabad",
+        "Skills": "angular,html5,boostrap,material,scss,.net,sql"
+    }
+]

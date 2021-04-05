@@ -1,0 +1,14 @@
+<section>
+    <mat-toolbar>
+        <button mat-icon-button class="menu-icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <div class="menu-content">
+            <button class="dashboard-button" mat-button [routerLink]="['tracker/profiles']">Profiles</button>
+            <button class="search-button" mat-button [routerLink]="['tracker/roles']">Roles</button>
+        </div>
+        <div *ngIf="showLogOut" class="action-content">
+            <button class="logout-button" mat-button (click)="Logout()">Logout</button>
+        </div>
+    </mat-toolbar>
+</section>

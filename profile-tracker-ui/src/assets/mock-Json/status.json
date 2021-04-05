@@ -1,0 +1,18 @@
+[
+    {
+        "Id": 1,
+        "Status":"New"
+    },
+    {
+        "Id": 2,
+        "Status":"Shortlisted"
+    },
+    {
+        "Id": 3,
+        "Status":"Interviewed"
+    },
+    {
+        "Id": 4,
+        "Status":"Position Offered"
+    }
+]

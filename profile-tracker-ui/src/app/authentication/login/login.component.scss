@@ -1,0 +1,24 @@
+.form-section {
+    .login-form {
+        .content {
+            padding: 10% 10%;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            .header {
+                text-align: center;
+            }
+            .form-fields {
+                .input-field {
+                    width: 100%;
+                }
+            }
+            .actions {
+                .login-user {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<section class="form-section">
+    <form class="login-form" #loginForm="ngForm" (ngSubmit)="loginUser()" [style.fontSize.px]="20">
+        <div class="content">
+            <div class="header">
+                <h2>Login User</h2>
+            </div>
+            <div class="form-fields">
+                <mat-form-field class="input-field">
+                    <input id="email" matInput placeholder="User Id" [(ngModel)]="newUser.email" name="email" required>
+                </mat-form-field>
+                <mat-form-field class="input-field">
+                    <input id="password" matInput placeholder="Password" type="password" [(ngModel)]="newUser.password"
+                        name="password" required>
+                </mat-form-field>
+            </div>
+            <div class="actions">
+                <button class="login-user" mat-stroked-button type="submit">
+                    Login
+                </button>
+            </div>
+        </div>
+    </form>
+</section>

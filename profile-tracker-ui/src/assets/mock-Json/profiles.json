@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "Name": "Kumar",
+        "ProfileImageUrl": "",
+        "CurrentRole": "Engineer",
+        "Skills": "angular,.net,sql",
+        "Status": 1
+    },
+    {
+        "Id": 2,
+        "Name": "Raju",
+        "ProfileImageUrl": "",
+        "CurrentRole": "Lead",
+        "Skills": "java,.net,sql,micro services,angular,html5",
+        "Status": 1
+    },
+    {
+        "Id": 3,
+        "Name": "Raj",
+        "ProfileImageUrl": "",
+        "CurrentRole": "Senior Engineer",
+        "Skills": "angular,.net,sql,html5",
+        "Status": 1
+    }
+]
